@@ -1,0 +1,101 @@
+Rank,Name,Country,Age,Net Worth ($bil),Industries,Source of Wealth,Change of Wealth,gender
+1,Bill Gates,United States,58,77.3,Technology,Self-made,Up,Male
+2,Carlos Slim Helu   family,Mexico,74,72,Telecom,Self-made,Down,Male
+3,Warren Buffett,United States,83,65,Investments,Self-made,Up,Male
+4,Amancio Ortega,Spain,78,63.3,Retail,Self-made,Up,Male
+5,Larry Ellison,United States,69,50.9,Technology,Self-made,Up,Male
+6,Charles Koch,United States,78,40.6,Diversified,Inherited,Up,Male
+6,David Koch,United States,74,40.6,Diversified,Inherited,Up,Male
+8,Christy Walton   family,United States,59,37.8,Fashion Retail,Self-made,Up,Female
+9,Liliane Bettencourt   family,France,91,36.2,Fashion Retail,Inherited,Up,Female
+10,Sheldon Adelson,United States,80,35.9,Gaming,Inherited,Up,Male
+11,Bernard Arnault   family,France,65,35.8,Fashion Retail,Inherited,Up,Male
+12,Jim Walton,United States,66,35.7,Fashion Retail,Inherited,Up,Male
+13,Alice Walton,United States,64,35.3,Fashion Retail,Inherited,Up,Female
+14,S. Robson Walton,United States,70,35.3,Fashion Retail,Inherited,Up,Male
+15,Li Ka-shing,Hong Kong,85,34.4,Diversified,Inherited,Up,Male
+16,Stefan Persson,Sweden,66,33,Fashion Retail,Self-made,Up,Male
+17,Michael Bloomberg,United States,72,32.4,Finance,Self-made,Up,Male
+18,Larry Page,United States,41,28.8,Technology,Self-made,Up,Male
+19,Sergey Brin,United States,40,28.5,Technology,Self-made,Up,Male
+20,Jeff Bezos,United States,50,27.7,Technology,Self-made,Up,Male
+21,Michele Ferrero   family,Italy,89,26.8,Food and Beverage,Self-made,Up,Male
+22,Karl Albrecht,Germany,94,26.2,Fashion Retail,Inherited,Up,Male
+23,Mark Zuckerberg,United States,30,25.8,Technology,Self-made,Down,Male
+24,Mukesh Ambani,India,57,25.4,Energy,Self-made,Up,Male
+25,Aliko Dangote,Nigeria,57,24.3,Manufacturing,Self-made,Up,Male
+26,David Thomson   family,Canada,56,23.5,Media,Self-made,Up,Male
+27,Dieter Schwarz,Germany,74,23.4,Fashion Retail,Inherited,Up,Male
+28,Carl Icahn,United States,78,23.1,Investments,Self-made,Up,Male
+29,George Soros,United States,83,23,Investments,Inherited,Up,Male
+30,Jorge Paulo Lemann,Brazil,74,21.6,Food and Beverage,Self-made,Up,Male
+31,Lee Shau Kee,Hong Kong,86,20.8,Real Estate,Inherited,Up,Male
+32,Leonardo Del Vecchio,Italy,78,20.3,Fashion Retail,Inherited,Up,Male
+33,Steve Ballmer,United States,58,20.1,Technology,Inherited,Up,Male
+34,Prince Alwaleed Bin Talal Alsaud,Saudi Arabia,59,20.1,Investments,Self-made,Up,Male
+35,Len Blavatnik,United States,56,20.1,Energy,Self-made,Down,Male
+36,Forrest Mars Jr,United States,82,19.7,Food and Beverage,Inherited,Up,Male
+36,Jacqueline Mars,United States,74,19.7,Food and Beverage,Self-made,Up,Female
+36,John Mars,United States,77,19.7,Food and Beverage,Self-made,Up,Male
+39,Theo Albrecht Jr   family,Germany,63,19.7,Fashion Retail,Self-made,Up,Male
+40,Michael Otto   family,Germany,71,19,Fashion Retail,Inherited,Down,Male
+41,Phil Knight,United States,76,18.4,Fashion Retail,Self-made,Up,Male
+42,Alisher Usmanov,Russia,60,18.4,Metals Mining,Self-made,Up,Male
+43,Michael Dell,United States,49,18.1,Technology,Inherited,Up,Male
+44,Gina Rinehart,Australia,60,18.1,Metals Mining,Self-made,Up,Female
+45,Lui Che Woo,Hong Kong,84,17.8,Gaming,Self-made,Up,Male
+46,Susanne Klatten,Germany,52,17.8,Automotive,Inherited,Up,Female
+47,Mikhail Fridman,Russia,50,17.5,Energy,Self-made,Up,Male
+48,Harold Hamm,United States,68,17.4,Energy,Self-made,Up,Male
+49,Viktor Vekselberg,Russia,57,17.4,Energy,Inherited,Up,Male
+50,Abigail Johnson,United States,52,16.8,Business,Inherited,Up,Female
+51,Masayoshi Son,Japan,56,16.8,Telecom,Self-made,Up,Male
+52,Lakshmi Mittal,India,63,16.6,Metals Mining,Inherited,Up,Male
+53,Joseph Safra,Brazil,75,16.4,Finance,Self-made,Up,Male
+54,Francois Pinault   family,France,77,16.3,Fashion Retail,Self-made,Up,Male
+55,Paul Allen,United States,61,16,Technology,Self-made,Up,Male
+56,Luis Carlos Sarmiento,Colombia,81,15.8,Finance,Self-made,Up,Male
+57,Tadashi Yanai   family,Japan,65,15.7,Fashion Retail,Self-made,Up,Male
+58,Charles Ergen,United States,61,15.6,Technology,Inherited,Up,Male
+59,Stefan Quandt,Germany,48,15.5,Automotive,Inherited,Down,Male
+60,Anne Cox Chambers,United States,94,15.4,Media,Self-made,Up,Female
+61,Mohammed Al Amoudi,Saudi Arabia,67,15.1,Energy,Self-made,Up,Male
+62,Donald Bren,United States,82,15.1,Real Estate,Inherited,Up,Male
+63,Vladimir Lisin,Russia,58,14.9,Metals Mining,Self-made,Up,Male
+64,German Larrea Mota Velasco   family,Mexico,60,14.8,Metals Mining,Self-made,Up,Male
+65,Serge Dassault   family,France,89,14.8,Manufacturing,Self-made,Up,Male
+66,Azim Premji,India,68,14.7,Technology,Inherited,Up,Male
+67,Laurene Powell Jobs   family,United States,50,14.7,Technology,Inherited,Down,Female
+68,Ray Dalio,United States,64,14.4,Investments,Self-made,Up,Male
+69,Leonid Mikhelson,Russia,58,14.3,Energy,Self-made,Up,Male
+70,Georg Schaeffler,Germany,49,14.2,Manufacturing,Self-made,Up,Male
+71,Iris Fontbona   family,Chile,71,14.2,Metals Mining,Inherited,Up,Female
+72,Gennady Timchenko,Russia,61,14.1,Energy,Self-made,Up,Male
+73,Ronald Perelman,United States,71,14.1,Investments,Inherited,Up,Male
+74,Vladimir Potanin,Russia,53,14.1,Metals Mining,Self-made,Up,Male
+75,Wang Jianlin,China,59,14,Real Estate,Inherited,Up,Male
+76,Pallonji Mistry,Ireland,84,14,Construction Engineering,Self-made,Down,Male
+77,John Fredriksen,Cyprus,69,13.9,Logistics,Self-made,Up,Male
+78,Rupert Murdoch   family,United States,83,13.9,Media,Self-made,Up,Male
+79,Lee Kun-Hee,South Korea,72,13.5,Diversified,Self-made,Up,Male
+80,Dilip Shanghvi,India,58,13.5,Health Care,Self-made,Up,Male
+81,John Paulson,United States,58,13.5,Investments,Inherited,Up,Male
+82,Johanna Quandt,Germany,87,13.4,Automotive,Inherited,Up,Female
+83,Cheng Yu-tung,Hong Kong,88,13.4,Real Estate,Inherited,Up,Male
+84,Thomas   Raymond Kwok   family,Hong Kong,59,13.3,Real Estate,Self-made,Up,Male
+85,Vagit Alekperov,Russia,63,13.1,Energy,Self-made,Up,Male
+86,Gerald Cavendish Grosvenor   family,United Kingdom,62,13.1,Real Estate,Inherited,Down,Male
+87,Alejandro Santo Domingo Davila   family,Colombia,37,13,Food and Beverage,Self-made,Down,Male
+88,Ma Huateng,China,42,12.6,Technology,Self-made,Down,Male
+89,Henry Sy   family,Philippines,89,12.6,Diversified,Self-made,Up,Male
+90,James Simons,United States,76,12.5,Investments,Inherited,Down,Male
+91,Jack Taylor   family,United States,91,12.5,Service,Self-made,Up,Male
+92,Rinat Akhmetov,Ukraine,47,12.2,Metals Mining,Inherited,Up,Male
+93,Alberto Bailleres Gonzalez   family,Mexico,82,12.1,Metals Mining,Inherited,Up,Male
+94,Ernesto Bertarelli   family,Switzerland,48,12.1,Health Care,Self-made,Down,Male
+95,Hans Rausing,Sweden,88,12,Media,Self-made,Down,Male
+96,Ananda Krishnan,Malaysia,76,12,Telecom,Self-made,Up,Male
+97,Charoen Sirivadhanabhakdi,Thailand,70,11.9,Food and Beverage,Inherited,Down,Male
+98,Robert   Philip Ng,Singapore,90,11.8,Real Estate,Self-made,Down,Male
+99,Dhanin Chearavanont   family,Thailand,75,11.8,Diversified,Self-made,Down,Male
+100,David   Simon Reuben,United Kingdom,71,11.6,Real Estate,Self-made,Up,Male
