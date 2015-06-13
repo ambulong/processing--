@@ -10,7 +10,9 @@ float w, h;
 boolean isMoving = false;
 float targetX = 0;
 float startX = 0;
-int time = 1000; //ms
+int time = 100;
+int currentT = 50;
+color bgcolor = #FFFFFF;
 
 Chart c07, c08, c09, c10, c11, c12, c13, c14;
 
@@ -27,7 +29,7 @@ void setup() {
   h = displayHeight;
 
   size(displayWidth, displayHeight);
-  background(#FFFFFF);
+  background(bgcolor);
   for (int i=0; i<yearNum; i++) {
     table[i] = loadTable("./res/"+(2007+i)+".csv", "header");
     println("Year "+(2007+i)+" num: "+table[i].getRowCount());
@@ -50,11 +52,29 @@ void setup() {
   c12.setDivSize(displayWidth, displayHeight);
   c13.setDivSize(displayWidth, displayHeight);
   c14.setDivSize(displayWidth, displayHeight);
+  
+  c07.addData(table[0]);
+  c08.addData(table[1]);
+  c09.addData(table[2]);
+  c10.addData(table[3]);
+  c11.addData(table[4]);
+  c12.addData(table[5]);
+  c13.addData(table[6]);
+  c14.addData(table[7]);
+  
+  c07.addCrData(table);
+  c08.addCrData(table);
+  c09.addCrData(table);
+  c10.addCrData(table);
+  c11.addCrData(table);
+  c12.addCrData(table);
+  c13.addCrData(table);
+  c14.addCrData(table);
 }
 
 void draw() {
   clear();
-  background(#FFFFFF);
+  background(bgcolor);
   //baseLocaion[0] = baseLocaion[0]-1;
   c07.draw(baseLocaion[0], baseLocaion[1]);
   c08.draw(baseLocaion[0], baseLocaion[1]);
@@ -74,45 +94,13 @@ void draw() {
     isMoving = false;
     baseLocaion[0] = targetX;
   }else{
-    if(baseLocaion[0] > targetX){
-      baseLocaion[0]=baseLocaion[0]-3;
-    }else{
-      baseLocaion[0]=baseLocaion[0]+3;
-    }
+    baseLocaion[0]=getBaseLocationX();
   }
-  /*if (selected.equals("2007")) {
-    if(baseLocaion[0] == 0){
-      isMoving = false;
-    }
-  } else if (selected.equals("2008")) {
-    if(baseLocaion[0] == -w){
-      isMoving = false;
-    }
-  } else if (selected.equals("2009")) {
-    if(baseLocaion[0] == -2*w){
-      isMoving = false;
-    }
-  } else if (selected.equals("2010")) {
-    if(baseLocaion[0] == -3*w){
-      isMoving = false;
-    }
-  } else if (selected.equals("2011")) {
-    if(baseLocaion[0] == -4*w){
-      isMoving = false;
-    }
-  } else if (selected.equals("2012")) {
-    if(baseLocaion[0] == -5*w){
-      isMoving = false;
-    }
-  } else if (selected.equals("2013")) {
-    if(baseLocaion[0] == -6*w){
-      isMoving = false;
-    }
-  } else if (selected.equals("2014")) {
-    if(baseLocaion[0] == -7*w){
-      isMoving = false;
-    }
-  }*/
+  if (currentT<=time) {
+    colorMode(RGB, 255);
+    drawLayer();
+    currentT++;
+  }
 }
 
 void mousePressed() {
@@ -149,6 +137,7 @@ void mousePressed() {
   if (!selected.equals("")) {
     println("Selected: "+selected);
     isMoving = true;
+    currentT = 0;
     startX = baseLocaion[0];
     if (selected.equals("2007")) {
       targetX = 0;
@@ -172,25 +161,30 @@ void mousePressed() {
   }
 }
 
-/**
- * Get detail info from table
- */
-String[][] getDetail(Table table) {
-  String[][] data;
-  data = new String[table.getRowCount()][5];
-  int iR = 0;
-  for (TableRow row : table.rows ()) {
-    String rank = row.getString("Rank");
-    String name = row.getString("Name");
-    String country = row.getString("Country");
-    String age = row.getString("Age");
-    String nw = row.getString("Net Worth ($bil)");
-    String item[] = { 
-      rank, name, country, age, nw
-    };
-    data[iR++] = item;
+
+float getBaseLocationX(){
+  if(currentT >= 0.5*time){
+    return targetX;
+  }else{
+    return baseLocaion[0];
   }
-  return data;
+}
+
+/**
+* 分块切换班透明层
+*/
+void drawLayer(){
+  noStroke();
+  color c = bgcolor;
+  float alpha = 0;
+  if(currentT <= 0.5*time){
+    alpha = 255*(currentT/(0.5*time));
+  }else{
+    alpha = 255*(1-(currentT-0.5*time)/(0.5*time));
+  }
+  //println(alpha);
+  fill(c, alpha);
+  rect(0, 0, w, h);
 }
 
 void keyPressed() {
