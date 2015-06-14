@@ -114,7 +114,7 @@ class Chart {
       cr[i].setData(this.crData[i]);
       if(name.equals((2007+i)+"")){
         cr[i].setSelected();
-        println(name+" "+i);
+        //println(name+" "+i);
       }
       cr[i].draw();
     }

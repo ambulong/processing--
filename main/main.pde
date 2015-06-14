@@ -6,7 +6,7 @@ float baseLocaion[] = {
 final int yearNum = 8;
 Table[] table = new Table[yearNum];
 String selected = "";
-float w, h;
+int w, h;
 boolean isMoving = false;
 float targetX = 0;
 float startX = 0;
@@ -28,11 +28,11 @@ void setup() {
   w = displayWidth;
   h = displayHeight;
 
-  size(displayWidth, displayHeight);
+  size(w, h);
   background(bgcolor);
   for (int i=0; i<yearNum; i++) {
     table[i] = loadTable("./res/"+(2007+i)+".csv", "header");
-    println("Year "+(2007+i)+" num: "+table[i].getRowCount());
+    //println("Year "+(2007+i)+" num: "+table[i].getRowCount());
   }
 
   c07.setIndex(0);
@@ -44,14 +44,14 @@ void setup() {
   c13.setIndex(6);
   c14.setIndex(7);
 
-  c07.setDivSize(displayWidth, displayHeight);
-  c08.setDivSize(displayWidth, displayHeight);
-  c09.setDivSize(displayWidth, displayHeight);
-  c10.setDivSize(displayWidth, displayHeight);
-  c11.setDivSize(displayWidth, displayHeight);
-  c12.setDivSize(displayWidth, displayHeight);
-  c13.setDivSize(displayWidth, displayHeight);
-  c14.setDivSize(displayWidth, displayHeight);
+  c07.setDivSize(w, h);
+  c08.setDivSize(w, h);
+  c09.setDivSize(w, h);
+  c10.setDivSize(w, h);
+  c11.setDivSize(w, h);
+  c12.setDivSize(w, h);
+  c13.setDivSize(w, h);
+  c14.setDivSize(w, h);
   
   c07.addData(table[0]);
   c08.addData(table[1]);

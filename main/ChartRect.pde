@@ -10,9 +10,9 @@ class ChartRect{
   private float x, y;
   private boolean isOver;
   private color defaultColor = color(230);
-  private color hoverColor = color(225);
+  private color hoverColor = color(220);
   private color defaultAlpha = 2000;
-  private color hoverAlpha = 500;
+  private color hoverAlpha = 2000;
   private color c;
   private color alpha;
   private boolean hasData, isSelected;
@@ -32,7 +32,7 @@ class ChartRect{
   }
   
   public void setSelected(){
-    this.defaultColor = this.hoverColor;
+    this.defaultColor = color(#BDBDBD);
     this.defaultAlpha = this.hoverAlpha;
     this.isSelected = true;
   }
